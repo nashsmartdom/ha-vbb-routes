@@ -1,0 +1,27 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "VBB Routes",
+        "description": "Configure a VBB route query.",
+        "data": {
+          "name": "Name",
+          "origin_name": "Origin name",
+          "origin_address": "Origin address",
+          "origin_lat": "Origin latitude",
+          "origin_lon": "Origin longitude",
+          "destination_id": "Destination stop ID",
+          "destination_name": "Destination name",
+          "min_depart_offset_min": "Minimum departure offset in minutes",
+          "max_transfers": "Maximum transfers",
+          "results": "Raw VBB results to request",
+          "top_n": "Number of route sensors",
+          "update_interval": "Update interval in seconds"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This route is already configured."
+    }
+  }
+}
