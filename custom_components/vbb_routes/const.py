@@ -1,0 +1,32 @@
+DOMAIN = "vbb_routes"
+
+CONF_ORIGIN_NAME = "origin_name"
+CONF_ORIGIN_ADDRESS = "origin_address"
+CONF_ORIGIN_LAT = "origin_lat"
+CONF_ORIGIN_LON = "origin_lon"
+
+CONF_DESTINATION_ID = "destination_id"
+CONF_DESTINATION_NAME = "destination_name"
+
+CONF_MIN_DEPART_OFFSET_MIN = "min_depart_offset_min"
+CONF_MAX_TRANSFERS = "max_transfers"
+CONF_RESULTS = "results"
+CONF_TOP_N = "top_n"
+CONF_UPDATE_INTERVAL = "update_interval"
+
+DEFAULT_NAME = "VBB Pankow"
+DEFAULT_ORIGIN_NAME = "Karl-Marx-Allee 72"
+DEFAULT_ORIGIN_ADDRESS = "Karl-Marx-Allee 72, 10243 Berlin"
+DEFAULT_ORIGIN_LAT = 52.517481
+DEFAULT_ORIGIN_LON = 13.436806
+
+DEFAULT_DESTINATION_ID = "900130002"
+DEFAULT_DESTINATION_NAME = "S+U Pankow"
+
+DEFAULT_MIN_DEPART_OFFSET_MIN = 7
+DEFAULT_MAX_TRANSFERS = 1
+DEFAULT_RESULTS = 8
+DEFAULT_TOP_N = 3
+DEFAULT_UPDATE_INTERVAL = 60
+
+VBB_JOURNEYS_URL = "https://v6.vbb.transport.rest/journeys"
